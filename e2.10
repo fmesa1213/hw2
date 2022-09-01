@@ -8,26 +8,26 @@ Asks the user for the number of gallons of gas in their tank, the fuel effiency 
 It then prints the cost per 100 miles and how far the car can go with the gas.
 */
 
-include <iostream>
+#include <iostream>
 using namespace std;
 
 int main()
 {
-cout << "Enter the number of gallons of gas in your tank"<< end1;
+cout << "Enter the number of gallons of gas in your tank"<< endl;
 float numgals = 0;
 cin >> numgals;
 
-cout << "Enter the the fuel effiency in miles per gallon" << end1;
+cout << "Enter the the fuel effiency in miles per gallon" << endl;
 float mpg = 0;
 cin >> mpg;
 
-cout << "Enter the price of gas per gallon" << end1;
+cout << "Enter the price of gas per gallon" << endl;
 float gpg = 0;
 cin >> gpg;
 
 int cost1 = (100/numgals) * gpg
 int mgas = (100/numgals) * mpg
-cout << " The cost per 100 miles is " << cost1 << " and farthest it can go is " << mgas << " miles." << end1;
+cout << " The cost per 100 miles is " << cost1 << " and farthest it can go is " << mgas << " miles." << endl;
 
 return 0;
 
