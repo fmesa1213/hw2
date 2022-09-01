@@ -12,6 +12,7 @@ It then prints the cost per 100 miles and how far the car can go with the gas.
 using namespace std;
 
 int main()
+
 {
 cout << "Enter the number of gallons of gas in your tank"<< endl;
 float numgals = 0;
@@ -25,8 +26,8 @@ cout << "Enter the price of gas per gallon" << endl;
 float gpg = 0;
 cin >> gpg;
 
-int cost1 = (100/numgals) * gpg
-int mgas = (100/numgals) * mpg
+int mgas = (numgals * mpg) ;
+int cost1 = (100/mpg) * gpg;
 cout << " The cost per 100 miles is " << cost1 << " and farthest it can go is " << mgas << " miles." << endl;
 
 return 0;
