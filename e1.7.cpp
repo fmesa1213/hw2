@@ -11,8 +11,8 @@ Names 3 animals
 using namespace std;
 int main()
 {
-cout << "dog"<< end1;
-cout << "cat"<< end1;
-cout << "fish"<< end1;
+cout << "dog"<< endl;
+cout << "cat"<< endl;
+cout << "fish"<< endl;
 return 0;
 }
